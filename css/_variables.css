@@ -1,0 +1,17 @@
+:root {
+  --primary-font: 'Poppins';
+  --secondary-font: 'Roboto';
+
+  --primary-text-color: #2d2d2d;
+  --secondary-text-color: #7c7c7c;
+  --primary-bg-color: #ecf7f3;
+  --secondary-bg-color: #48b774;
+  --hover-bg-color: #128807;
+  --accent-color: #ff8345;
+  --link-color: #fd905a;
+
+  --primary-font-size: clamp(13px, 1.3vw, 16px);
+
+  --primary-line-height: 1.73;
+  --secondary-line-height: 1.35;
+}

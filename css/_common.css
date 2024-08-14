@@ -1,0 +1,114 @@
+/* ===========================
+   Common Styles
+   =========================== */
+
+html {
+  font-size: var(--primary-font-size);
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--primary-bg-color);
+  color: var(--primary-text-color);
+  font-family: var(--primary-font), sans-serif;
+  line-height: var(--primary-line-height);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 0.5em;
+  line-height: var(--secondary-line-height);
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 3.375rem;
+}
+
+h3 {
+  font-size: 2.25rem;
+  line-height: 1.35;
+}
+
+h4 {
+  font-size: 1.375rem;
+}
+
+p {
+  margin: 0.16rem 0;
+}
+
+a {
+  transition: 0.3s;
+  text-decoration: none;
+  color: var(--link-color);
+}
+
+ul,
+ol {
+  margin: 0;
+}
+
+button {
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100svh;
+  overflow: hidden;
+}
+
+.container {
+  box-sizing: content-box;
+  max-width: 69.5625rem;
+  margin: 0 auto;
+  padding: 0 3vw;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6875rem 1.46875rem;
+  border: none;
+  font-size: 1rem;
+  line-height: 1.25;
+  font-weight: 500;
+  border-radius: 3.125rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn:hover {
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.4);
+}
+
+.btn:active {
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.6);
+}
+
+.btn--primary {
+  background: var(--secondary-bg-color);
+  color: #fff;
+}
+
+.btn--primary:hover {
+  background: var(--hover-bg-color);
+}
+
+.main-area {
+  flex: 1 0 auto;
+}

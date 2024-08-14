@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="format-detection"
+      content="telephone=no, address=no, email=no, date=no, url=no"
+    />
+    <meta name="theme-color" content="#ECF7F3" />
+    <meta name="author" content="a.nikonorov" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <title>LuckyGroup. Тестовое задание</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <header class="header">
+        <div class="container header__container">
+          <a href="#" class="header__logo">
+            <img
+              class="header__logo-img"
+              width="131"
+              height="40"
+              src="img/logo.svg"
+              alt="Global Logo"
+            />
+          </a>
+          <nav class="header__nav">
+            <ul class="header__nav-list">
+              <li class="header__nav-item">
+                <a href="#" class="header__nav-link header__nav-link--current">
+                  Mobile Top Up
+                </a>
+              </li>
+              <li class="header__nav-item">
+                <a href="#" class="header__nav-link">About</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="#" class="header__nav-link">Rate</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="#" class="header__nav-link">Help</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__btns">
+            <button class="btn btn--primary header__signup">Sign Up</button>
+            <button class="header__burger">
+              <svg class="header__burger-open">
+                <use href="img/sprite.svg#burger" />
+              </svg>
+              <svg class="header__burger-close">
+                <use href="img/sprite.svg?v2#close" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </header>
+      <main class="main-area">
+        <section class="hero">
+          <div class="container hero__container">
+            <div class="hero__content">
+              <h1 class="hero__title">
+                Now Buy Your PIN&nbsp;or <strong>Top Up</strong>
+                <span>With Bank Transfer</span>
+              </h1>
+              <div class="hero__desc">
+                We Make international calling simple, relible, and cheap basedon
+                your unique calling behavior.
+              </div>
+              <button class="btn btn--primary hero__started">
+                Get Started
+              </button>
+              <form class="hero__search" action="#" name="search-form">
+                <label class="hero__search-label" for="search">
+                  Where do you want to call?
+                </label>
+                <input
+                  id="search"
+                  class="hero__search-input"
+                  type="search"
+                  name="search"
+                  placeholder="Where do you want to call?"
+                  minlength="4"
+                  maxlength="12"
+                  pattern="^[^!@#\$%\^&\*\(\)]*$"
+                  title="Поле не должно содержать символы: !@#$%^&*()"
+                  required
+                />
+                <button
+                  class="btn btn--primary hero__search-submit"
+                  type="submit"
+                >
+                  <svg><use href="img/sprite.svg#search" /></svg>
+                </button>
+              </form>
+              <div class="hero__users">
+                <div class="hero__users-list">
+                  <div class="hero__users-item">
+                    <img
+                      srcset="
+                        img/users/user-1.webp    1x,
+                        img/users/user-1@2x.webp 2x
+                      "
+                      src="img/users/user-1.webp"
+                      alt="User 1"
+                    />
+                  </div>
+                  <div class="hero__users-item">
+                    <img
+                      srcset="
+                        img/users/user-2.webp    1x,
+                        img/users/user-2@2x.webp 2x
+                      "
+                      src="img/users/user-2.webp"
+                      alt="User 2"
+                    />
+                  </div>
+                  <div class="hero__users-item">
+                    <img
+                      srcset="
+                        img/users/user-3.webp    1x,
+                        img/users/user-3@2x.webp 2x
+                      "
+                      src="img/users/user-3.webp"
+                      alt="User 3"
+                    />
+                  </div>
+                  <div class="hero__users-item hero__users-item--more">
+                    <svg><use href="img/sprite.svg#plus" /></svg>
+                  </div>
+                </div>
+                <div class="hero__users-info">
+                  45k+ Regular User. <a href="#">View Price Plan</a>
+                </div>
+              </div>
+            </div>
+            <div class="hero__visual">
+              <div class="hero__visual-flags">
+                <div class="flag flag--1">
+                  <img src="img/flags/gb.svg" alt="GB" />
+                </div>
+                <div class="flag flag--2">
+                  <img src="img/flags/it.svg" alt="IT" />
+                </div>
+                <div class="flag flag--3">
+                  <img src="img/flags/in.svg" alt="IN" />
+                </div>
+                <div class="flag flag--4">
+                  <img src="img/flags/in.svg" alt="IN" />
+                </div>
+                <div class="flag flag--5">
+                  <img src="img/flags/ru.svg" alt="RU" />
+                </div>
+                <div class="flag flag--6">
+                  <img src="img/flags/us.svg" alt="US" />
+                </div>
+                <div class="flag flag--7">
+                  <img src="img/flags/in.svg" alt="IN" />
+                </div>
+              </div>
+              <img
+                class="hero__visual-img"
+                srcset="img/hero-img.webp 1x, img/hero-img@2x.webp 2x"
+                src="img/hero-img.webp"
+                alt="Hero Img"
+              />
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="js/index.js" type="module"></script>
+  </body>
+</html>
